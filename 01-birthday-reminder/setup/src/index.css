@@ -189,3 +189,17 @@ main {
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
 }
+
+
+.remove_btn {
+    color: var(--clr-white);
+    width: 25%;
+    border-color: transparent;
+    background: var(--clr-pink);
+    margin-top: 5px;
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    border-radius: var(--radius);
+    outline: 1px solid rgba(242, 138, 178, 0.8);
+    cursor: pointer;
+}
