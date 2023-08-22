@@ -14,7 +14,7 @@ const App = () => {
       <h3>{people.length} Birthdays Today</h3>
       <List people={people} />
       <button onClick={()=>{
-        console.log(`Clicked`);
+        // console.log(`Clicked`);
         setPeople([]);
       }}>Clear All</button>
       </section>

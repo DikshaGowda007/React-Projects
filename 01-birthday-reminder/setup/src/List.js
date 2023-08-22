@@ -1,7 +1,7 @@
 import React from 'react';
 
 const List = ({people}) => {
-  console.log(`People ${JSON.stringify(people.length)}`)
+  // console.log(`People ${JSON.stringify(people.length)}`)
   if (people.length !== undefined) {
     return (
       <>
